@@ -2497,7 +2497,6 @@ dependencies = [
  "meili-snap",
  "meilisearch-auth",
  "meilisearch-types",
- "mimalloc",
  "mime",
  "num_cpus",
  "obkv",

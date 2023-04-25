@@ -12,8 +12,8 @@ use meilisearch::{analytics, create_app, prototype_name, setup_meilisearch, Opt}
 use meilisearch_auth::{generate_master_key, AuthController, MASTER_KEY_MIN_SIZE};
 use termcolor::{Color, ColorChoice, ColorSpec, StandardStream, WriteColor};
 
-#[global_allocator]
-static ALLOC: mimalloc::MiMalloc = mimalloc::MiMalloc;
+// #[global_allocator]
+// static ALLOC: mimalloc::MiMalloc = mimalloc::MiMalloc;
 
 /// does all the setup before meilisearch is launched
 fn setup(opt: &Opt) -> anyhow::Result<()> {

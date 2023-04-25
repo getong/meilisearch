@@ -43,7 +43,7 @@ lazy_static = "1.4.0"
 log = "0.4.17"
 meilisearch-auth = { path = "../meilisearch-auth" }
 meilisearch-types = { path = "../meilisearch-types" }
-mimalloc = { version = "0.1.29", default-features = false }
+# mimalloc = { version = "0.1.29", default-features = false }
 mime = "0.3.16"
 num_cpus = "1.13.1"
 obkv = "0.2.0"
